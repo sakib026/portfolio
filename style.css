@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 section{
-    height: 500px;
+    height: 600px;
     background-repeat: no-repeat;
 }
 .topbanner{
@@ -38,13 +38,42 @@ h1{
     width: 100%;
  }
  
-
-
- .half{
-    width: 40%;
-    margin-left: 5%;
- }
-
 .bottom-banner h1{
     padding-top: 20%;
+}
+
+.bottom-banner{
+    background-image: url("/img/dream-bg.png");
+    background-position: right;
+}
+
+.experience{
+    margin-left: 5%;
+}
+
+.exp{
+    background-image: url("/img/exp-bg.png");
+    background-position: left;
+}
+.box{
+    box-shadow: 10px 10px 40px gray;
+    height: 40%;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#autocad{
+    border-left: 7px solid rgb(255, 255, 255);
+    border-image: linear-gradient(rgb(255, 183, 0), rgb(255, 94, 0));
+    border-image-slice: 1;
+}
+
+#automation{
+    border-left: 7px solid rgb(255, 255, 255);
+    border-image: linear-gradient(rgb(0, 183, 255), rgb(0, 55, 255));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
