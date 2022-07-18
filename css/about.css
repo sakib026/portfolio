@@ -1,0 +1,27 @@
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 0px solid white;
+    padding-left: 10px;
+}
+
+
+.logo_iiuc{
+    padding-left: 30px;
+    padding-top: 50px;
+    height: 430px;
+}
+
+.logo_ue{
+    padding left: 50px;
+    padding-top: 100px;
+    height:300px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
